@@ -18,7 +18,7 @@
      <form action="{{route('Cart.store')}}" method="post">
      @csrf
    <input type="hidden" name='product_id' value="{{$product->id}}">
-     <button  type='submit' class='btn btn-warning' > Acheter</button>
+     <button  type='submit' class='btn btn-warning' > Ajouter au panier</button>
     
      </form>
     </center>
